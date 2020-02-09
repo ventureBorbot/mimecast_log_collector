@@ -1,0 +1,11 @@
+name: mimecast
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - ipython==5.8.0
+  - jupyter==1.0.0
+  - spyder==3.3.6
+  - pandas==0.24.2
+  - numpy==1.16.5
+  - requests==2.22.0
