@@ -7,5 +7,7 @@ dependencies:
   - jupyter==1.0.0
   - spyder==3.3.6
   - pandas==0.24.2
+#  - openpyxl==3.0.3 # needed for to_excel - possibly remove
   - numpy==1.16.5
   - requests==2.22.0
+  - pandas-profiling==2.4.0
