@@ -4,7 +4,7 @@ import os
 import time
 from mimecast.logger import log, syslogger, write_file, read_file
 
-
+#%%
 # Declare the type of event we want to ingest
 event_type = '/api/audit/get-siem-logs'
 connection = Mimecast(event_type)
@@ -81,7 +81,7 @@ def get_siem_logs():
             print("Getting additional SIEM logs")
     except Exception as e:
         log.error('Unexpected error getting MTA logs ' + (str(e)))
-    quit()
+        quit()
 
 
 get_siem_logs()
